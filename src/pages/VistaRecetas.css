@@ -1,0 +1,9 @@
+.image-receta {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.image-receta:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+  cursor: pointer;
+}

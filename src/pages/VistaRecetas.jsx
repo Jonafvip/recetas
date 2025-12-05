@@ -1,5 +1,6 @@
 import recetas from "../data/recetas.json";
 import { Rating } from "primereact/rating";
+import "./VistaRecetas.css";
 import { Link } from "react-router-dom";
 
 export const VistaRecetas = () => {
@@ -9,20 +10,24 @@ export const VistaRecetas = () => {
         <div className="card " style={{ width: "18rem" }} key={receta.id}>
           <img
             src={receta.imagen}
-            className="card-img-top"
+            className="card-img-top image-receta"
             alt={receta.imagen}
           />
           <div className="card-body">
             <h5 className="card-title">{receta.receta}</h5>
             <Rating
-              value={5}
+              value={4}
               readOnly
               cancel={false}
               style={{ display: "flex", flexWrap: "wrap" }}
             />
-            <button className="btn btn-primary" style={{ marginTop: "10px" }}>
+            <Link
+              className="btn btn-primary"
+              style={{ marginTop: "10px" }}
+              to={`/detalleRecetas/${receta.id}`}
+            >
               Ver receta
-            </button>
+            </Link>
           </div>
         </div>
       ))}

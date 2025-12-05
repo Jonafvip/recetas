@@ -1,10 +1,12 @@
+import { Link } from "react-router-dom";
+
 export const Header = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        <Link className="navbar-brand" to="/">
           Recetas de Comida
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -19,9 +21,9 @@ export const Header = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <span className="nav-link active" href="#">
-                Agrega tu receta
-              </span>
+              <button className="btn btn-outline-primary">
+                Agregar tu receta
+              </button>
             </li>
           </ul>
         </div>
