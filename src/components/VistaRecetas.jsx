@@ -14,7 +14,12 @@ export const VistaRecetas = () => {
           />
           <div className="card-body">
             <h5 className="card-title">{receta.receta}</h5>
-            <Rating value={5} readOnly cancel={false} />
+            <Rating
+              value={5}
+              readOnly
+              cancel={false}
+              style={{ display: "flex", flexWrap: "wrap" }}
+            />
             <button className="btn btn-primary" style={{ marginTop: "10px" }}>
               Ver receta
             </button>
