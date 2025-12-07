@@ -54,5 +54,37 @@
       "Yogur natural o Crema agria": "3 cucharadas",
       "Sal": "Al gusto"
     }
+  },
+  {
+    "id": 5,
+    "imagen": "https://www.univision.com/_next/image?url=https%3A%2F%2Fuvn-brightspot.s3.amazonaws.com%2Fassets%2Fvixes%2Fimj%2Felgranchef%2FS%2FSecreto-para-el-omelette-perfecto-1.jpg&w=1280&q=75",
+    "receta": "nombre de la receta",
+    "Ingredientes": {
+      "nombre": "Cantidad"
+    }
+  },
+  {
+    "id": 6,
+    "imagen": "https://media.hellofresh.com/w_3840,q_auto,f_auto,c_fill,fl_lossy/hellofresh_s3/image/HF_Y25_R21_W03_ES_ESSSFB33344-2_MAIN_F1_high-1e4a91f5.jpg",
+    "receta": "nombre de la receta",
+    "Ingredientes": {
+      "nombre": "Cantidad"
+    }
+  },
+  {
+    "id": 7,
+    "imagen": "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?semt=ais_hybrid&w=740&q=80",
+    "receta": "nombre de la receta",
+    "Ingredientes": {
+      "nombre": "Cantidad"
+    }
+  },
+  {
+    "id": 8,
+    "imagen": "https://www.bupasalud.com/sites/default/files/inline-images/bupa_598072389.jpg",
+    "receta": "nombre de la receta",
+    "Ingredientes": {
+      "nombre": "Cantidad"
+    }
   }
 ]

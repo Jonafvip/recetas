@@ -9,12 +9,12 @@ export const DetallesRecetas = () => {
 
   return (
     <div
-      className="container d-flex justify-content-center align-items-center"
+      className="container d-flex justify-content-center align-items-center "
       style={{ minHeight: "80vh" }}
     >
       <div
-        className="card mb-3"
-        style={{ textAlign: "center", width: "1100px" }}
+        className="card  mb-3"
+        style={{ textAlign: "center", width: "1200px" }}
       >
         <div class="row g-0">
           <div class="col-md-4">
@@ -25,7 +25,7 @@ export const DetallesRecetas = () => {
               style={{ height: "418px" }}
             />
           </div>
-          <div class="col-md-8">
+          <div class="col-md-8 ">
             <div class="card-body">
               <h5 class="card-title">{recetas.receta}</h5>
               <h6>Ingredientes:</h6>
