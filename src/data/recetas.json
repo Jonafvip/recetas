@@ -4,12 +4,12 @@
     "imagen": "https://imag.bonviveur.com/pollo-al-ajillo-cerca.jpg",
     "receta": "Pollo al Ajillo",
     "Ingredientes": {
-      "pollo": "1kg",
+      "Pollo": "1kg",
       "Ajo": "6-8dientes",
       "Aceitedeoliva": "1/2 taza",
       "Vino blanco seco": "1/4 taza",
-      "perejil": "1 manojo",
-      "salyPimientaNegra": "Al gusto"
+      "Perejil": "1 manojo",
+      "Sal y Pimienta Negra": "Al gusto"
     }
   },
   {
@@ -19,10 +19,10 @@
     "Ingredientes": {
       "Espaguetis": "320 g",
       "Guanciale ": "150 g",
-      "Yemasdehuevo": "4 unidades",
-      "QuesoPecorinoRomano (rallado)": "50 g",
+      "Yemas De huevo": "4 unidades",
+      "QuesoPecorin o Romano (rallado)": "50 g",
       "Pimienta negra": "Abundante",
-      "SalAlgusto": "(cuidado con el guanciale/pecorino)"
+      "Sal Al gusto": "(cuidado con el guanciale/pecorino)"
     }
   },
   {
@@ -30,14 +30,13 @@
     "imagen": "https://www.goya.com/wp-content/uploads/2023/10/hearty-lentil-soup.jpg",
     "receta": "Sopa de Lentejas",
     "Ingredientes": {
-      " Lentejas pardinas": "400 g",
+      "Lentejas pardinas": "400 g",
       "Zanahoria": "2 unidades",
       "Patata": "1 unidad",
       "Puerro o Cebolla": "1 unidad",
       "Ajo": "2 dientes",
       "Pimentón dulce": "1 cucharadita",
       "Aceite de oliva virgen extra": "3 cucharadas",
-      "Caldo de verduras o agua": "1.5 - 2 litros",
       "Sal y Laurel": "Al gusto"
     }
   },
@@ -46,14 +45,13 @@
     "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_3CdJDQdCsh17nmvxLwV9RXBLBD4vNcKrHA&s",
     "receta": "Tacos de Pescado con Salsa de Aguacate",
     "Ingredientes": {
-      " Filetes de pescado blanco (tilapia, bacalao)": "500 g",
+      "Filetes de pescado blanco (tilapia, bacalao)": "500 g",
       "Tortillas de maíz o harina": "10-12 unidades",
       "Col o Repollo (en tiras finas)": "1/4 unidad",
-      "Limóno Lima": "2 unidades",
+      "Limón o Lima": "2 unidades",
       "Cilantro fresco": "Al gusto",
       "Aguacate maduro ": "1 unidad",
       "Yogur natural o Crema agria": "3 cucharadas",
-      "LimónoLima": "1/2 unidad (jugo)",
       "Sal": "Al gusto"
     }
   }

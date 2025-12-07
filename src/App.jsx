@@ -5,17 +5,20 @@ import "primeicons/primeicons.css";
 import { Header } from "./components/Header";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { DetallesRecetas } from "./pages/DetallesRecetas";
+import { UseRecetaProvider } from "./context/UseRecetaContext";
 
 function App() {
   return (
     <>
-      <BrowserRouter>
-        <Header />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="detalleRecetas/:id" element={<DetallesRecetas />} />
-        </Routes>
-      </BrowserRouter>
+      <UseRecetaProvider>
+        <BrowserRouter>
+          <Header />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="detalleRecetas/:id" element={<DetallesRecetas />} />
+          </Routes>
+        </BrowserRouter>
+      </UseRecetaProvider>
     </>
   );
 }
